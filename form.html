@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+    <!--Forms-->
+    <fieldset>
+    <h1 style="text-align: center; color: blueviolet;">Registration Form</h1>
+    <form action=""method="get"autocomplete="on">
+        <div class="form-controls">
+            <label for="fname">First Name:</label>
+            <input type="text"id="fname"name="fname"placeholder="enter first name"autofocus required>
+        </div>
+        <div class="form-controls">
+            <label for="lname">Last Name:</lable>
+                <input type="text"name="lname"placeholder="enter last name"></div>
+         <div class="form controls">
+            <label for="mail">Email</label>
+            <input type="email"name="mail"placeholder="enter email">
+        </div>
+        <div class="form-controls">
+            <label for="Password"></label>Password:</label>
+            <input type="Password"name="Pass"placeholder="enter password">
+        </div>  
+        <div class="form-controls">
+            <label for="Phone"></label>Phone No:</label>
+            <input type="tel"name="mobile"placeholder="enter phone number">
+        </div>
+        <div class="form-controls">
+            <label for="age"></label>Age:</label>
+            <input type="number"name="Age"placeholder="enter age">
+        </div>  
+        <div class="form-controls">
+            <label for="dob"></label>DOB:</label>
+            <input type="date"name="date">
+        </div>  
+        <div class="form-controls">
+            <label for="gender"></label>Gender:</label>
+            <input type="radio"name="gender"value="male"><span>Male</span>
+            <input type="radio"name="gender"value="female"><span>Female</span>
+            <input type="radio"name="gender"value="others"><span>others</span>
+        </div>
+        <div class="form-controls">
+            <label for="lang"></label>Languages:</label>
+            <input type="checkbox"name="lang"value="English"><span>English</span>
+            <input type="checkbox"name="lang"value="Tamil"><span>Tamil</span>
+            <input type="checkbox"name="lang"value="Kannada"><span>Kannada</span>
+            <input type="checkbox"name="lang"value="Telugu"><span>Telugu</span>
+            <input type="checkbox"name="lang"value="Malayalam"><span>Malayalam</span>
+        </div>
+        <div class="form-controls">
+            <label for="address"></label>Address:</label>
+            <textarea name="address"id=""cols="40" rows="5"></textarea>
+        </div>
+        <div class="form-controls">
+            <label for="percent">Percentage:</label>
+            <input type="range"name="range">
+        <div class="form-controls">
+            <label for="file">Upload Photo</label>
+            <input type="file"name="file">
+        </div> 
+        <select name="program" id=""multiple>
+            <option value="">--select--</option>
+            <option value="Html">HTML</option>
+            <option value="Css">CSS</option>
+
+            <option value="Sql">SQL</option>
+            <option value="Java">JAVA</option>
+            <option value="Js">JS</option>
+            <option value="React">REACT</option>
+      </select>
+     <div class="form controls"></div>
+     <label for="">Language</label>
+     <input type="text" list="lan">
+     <datalist id="lan">
+        <option value="">--select--</option>
+        <option value="Html">HTML</option>
+        <option value="Css">CSS</option>
+        <option value="Sql">SQL</option>
+        <option value="Java">JAVA</option>
+        <option value="Js">JS</option>
+        <option value="React">REACT</option>
+
+     </datalist>
+        <div class="btn">
+        <input type="submit"value="Register">
+        <input type="Reset">
+        </div>  
+       
+        
+
+    </form>
+</body></fieldset>
+</html>
